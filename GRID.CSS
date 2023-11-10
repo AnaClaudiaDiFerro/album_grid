@@ -1,0 +1,113 @@
+.album {
+    /* width: 100%;
+    height: 100%; */
+    display: grid;
+    
+
+    margin-top: auto;
+    padding-left: 300px;
+    place-items: center;
+    gap: 15px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 650px;
+    grid-template-areas: "img1 img1"
+    "img1 img1"
+    "img2 img2"
+    "img2 img2"
+    "img3 img4"
+    "img5 img6"
+    "img5 img7"
+    "img8 img8"
+    "img8 img8"
+    "img9 img9"
+    "img10 img11"
+    "img12 img12"
+    "img12 img12"
+    "img13 img14"
+    "img15 img16";
+    
+}
+
+/* div{
+    width: 200px;
+    height: 200px;
+} */
+
+.item1{
+    grid-area: img1;
+    justify-self: end;
+        
+}
+
+.item2{
+    grid-area: img2;
+}
+
+.item3{
+    grid-area: img3;
+    place-self: end;
+}
+
+.item4{
+    grid-area: img4;
+    place-self: start;
+}
+
+.item5{
+    grid-area: img5;
+    place-self: end;
+}
+
+.item6{
+    grid-area: img6;
+    place-self: start;
+}
+
+.item7{
+    grid-area: img7;
+    place-self: start;
+}
+
+.item8{
+    grid-area: img8;
+    place-self: end;
+    
+}
+
+.item9{
+    grid-area: img9;
+    place-self: center;
+}
+
+.item10{
+    grid-area: img10;
+    place-self: start;
+
+}
+.item11{
+    grid-area: img11;
+    place-self: end;
+
+}
+.item12{
+    grid-area: img12;
+    place-self: start;
+}
+.item13{
+    grid-area: img13;
+   place-self: center;
+}
+.item14{
+    grid-area: img14;
+}
+.item15{
+    grid-area: img15;
+    place-self: end;
+    padding-left: 200px;
+   
+}
+.item16{
+    grid-area: img16;
+    place-self: start;
+    
+}
